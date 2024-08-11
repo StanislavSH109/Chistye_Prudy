@@ -4,10 +4,11 @@
 
 .hero__heading {
   font-family: "Ardeco", "Arial", sans-serif;
-  font-size: 64px;
-  line-height: 64px;
+  font-size: 70px;
+  line-height: 70px;
   font-weight: 400;
   text-transform: uppercase;
+  margin: 0;
 }
 
 .hero__image {

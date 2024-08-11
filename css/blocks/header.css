@@ -4,18 +4,14 @@
 
 .header-wrapper {
     display: grid;
-    grid-template-columns: 280px 1fr 350px;
-    
-}
-
-.header-logo {
-    
+    grid-template-columns: 1fr 230px 1fr;
 }
 
 .header__left {
     display: flex;
     align-items: center;
-    /* gap: 140px; */
+    justify-content: flex-start;
+    gap: 140px;
 }
 
 .header__left-link {
@@ -24,10 +20,29 @@
     line-height: 24px;
     font-weight: 400;
     color: #ffffff;
+    margin: 0;
 }
 
 .header__right {
     display: flex;
+    justify-content: flex-end;
     align-items: center;
     gap: 20px;
+}
+
+.header__right-language-text {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.header__right-link {
+    padding: 12px 20px;
+    margin: 0 40px 0 0;
+    border: 2px solid #ffffff;
+    border-radius: 60px;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
 }

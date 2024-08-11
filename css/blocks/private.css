@@ -1,0 +1,88 @@
+.private-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 220px;
+}
+
+.private-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 180px 180px 0 0;
+    height: 480px;
+    min-width: 360px;
+    border: 2px solid #FFFFFF;
+    padding: 20px;
+}
+
+.private-left--image {
+    background-image: url(/images/private-house.png);
+    background-repeat: no-repeat;
+}
+
+.private-left__text {
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 400;
+    margin: 0 0 24px 0;
+    text-transform: uppercase;
+}
+
+.private-left__text--number {
+    font-size: 80px;
+    line-height: 60px;
+    font-family: "Ardeco", "Arial", sans-serif;
+    margin: 0 0 16px 0;
+}
+
+.private-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.private-right__title {
+    font-size: 64px;
+    line-height: 60px;
+    font-weight: 400;
+    font-family: "Ardeco", "Arial", sans-serif;
+    text-align: left;
+    text-transform: uppercase;
+    margin: 0 0 24px 0;
+}
+
+.private-right__text {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 300;
+    text-align: left;
+    margin: 0 0 16px 0;
+}
+
+.private-right__list {
+    margin: 0 0 32px 0;
+    padding: 0 0 0 15px;
+}
+
+.private-right__item {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 300;
+}
+
+.private-right__link {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 13px;
+    margin: 0 0 80px 0;
+}
+
+.private__more {
+    font-size: 160px;
+    line-height: 140px;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    font-family: "Ardeco", "Arial", sans-serif;
+    color: rgba(32, 65, 134, 1);
+}

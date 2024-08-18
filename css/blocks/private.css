@@ -1,4 +1,8 @@
-.private-wrapper {
+.private {
+    padding: 80px 0 0;
+}
+
+.private__wrapper {
     display: flex;
     justify-content: space-between;
     gap: 220px;
